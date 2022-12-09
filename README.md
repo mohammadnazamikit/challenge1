@@ -16,6 +16,7 @@ for production should do-- npm start
  it reads data from json file via readJSON function and file URL via fs-extra readartist function. then check if there is  query in URL and artistname in query.
  after that it search in Json file for that artistname. 
  if found object with that artistname, will retrun the array of that objects.
+ after that it change the array of object to CSV file and fields ["name","mbid","url","image_small","image"].
  if not will return the array of names of artist.
  if error happened then error handler shows "An error occured on our side" with statue code 500
  
