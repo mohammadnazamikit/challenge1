@@ -2,10 +2,11 @@
 
 <h1> challenge </h1>
 
-
+<h2> assumed </h2>
 I assumed that the json file is uploading with in this app the url of json file is "basicURL/src/JsonFile/artist.json"
 I worked only on get method of "basicURL/show/artist.search&artist=nameofartist"
 
+<h2> how to run </h2>
 for developer who work on this app should:
 first do-- npm i
 second do-- npm run dev
